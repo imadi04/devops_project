@@ -1,0 +1,12 @@
+image:
+  repository: aditya0004/note-todo-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8080
+
+replicaCount: 1 
+
+
